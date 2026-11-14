@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A-Level Revision Hub</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7fb;
+            color: #172033;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 25px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            background: white;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #667085;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 13px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .subjects {
+            padding: 55px 7%;
+        }
+
+        .subjects h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .intro {
+            text-align: center;
+            color: #667085;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        .icon {
+            font-size: 40px;
+        }
+
+        .card h3 {
+            font-size: 21px;
+        }
+
+        .card p {
+            color: #667085;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>📚 A-Level Revision Hub</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Quizzes</a>
+        <a href="#">Flashcards</a>
+        <a href="#">Progress</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h2>Your Revision Hub</h2>
+
+    <p>
+        Everything you need to revise your A Levels and BTECs.
+    </p>
+
+    <a href="#subjects" class="button">
+        Start Revising
+    </a>
+
+</section>
+
+
+<section class="subjects" id="subjects">
+
+    <h2>A-Level Subjects</h2>
+
+    <p class="intro">
+        Choose a subject to start revising.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🧬</div>
+            <h3>Biology</h3>
+            <p>A-Level Biology</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚗️</div>
+            <h3>Chemistry</h3>
+            <p>A-Level Chemistry</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Physics</h3>
+            <p>A-Level Physics</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🧠</div>
+            <h3>Psychology</h3>
+            <p>A-Level Psychology</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📐</div>
+            <h3>Mathematics</h3>
+            <p>A-Level Mathematics</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📖</div>
+            <h3>English Language</h3>
+            <p>A-Level English Language</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>English Literature</h3>
+            <p>A-Level English Literature</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="subjects">
+
+    <h2>BTECs</h2>
+
+    <p class="intro">
+        Choose your BTEC subject.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">💼</div>
+            <h3>Business</h3>
+            <p>BTEC Business</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏥</div>
+            <h3>Health & Social Care</h3>
+            <p>BTEC Health & Social Care</p>
+            <a href="#" class="button">Open Subject</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>📚 A-Level Revision Hub</p>
+
+    <p>Made for students</p>
+
+</footer>
+
+</body>
+</html>
