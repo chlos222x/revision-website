@@ -1,167 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A-Level Biology | Revision Hub</title>
 
-    <title>A-Level Biology | Revision Hub</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f7fb;
-            color: #172033;
-        }
-
-        header {
-            background: #172554;
-            color: white;
-            padding: 25px 7%;
-        }
-
-        header a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .hero {
-            background: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .hero h1 {
-            font-size: 40px;
-        }
-
-        .hero p {
-            color: #667085;
-            font-size: 18px;
-        }
-
-        .topics {
-            padding: 50px 7%;
-        }
-
-        .topics h2 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .topic-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .topic {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-
-        .topic h3 {
-            margin-top: 0;
-        }
-
-        .topic p {
-            color: #667085;
-        }
-
-        .button {
-            display: inline-block;
-            background: #2563eb;
-            color: white;
-            padding: 10px 18px;
-            border-radius: 7px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            background: #172554;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
-    </style>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f7fb;color:#172033}
+header{background:#172554;color:white;padding:25px 7%}
+header a{color:white;text-decoration:none}
+.hero{text-align:center;background:white;padding:65px 20px}
+.hero h1{font-size:42px}
+.hero p{color:#667085;font-size:18px}
+.container{max-width:900px;margin:auto;padding:50px 7%}
+h2{text-align:center}
+.description{text-align:center;color:#667085;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:white;padding:30px;text-align:center;border-radius:14px;box-shadow:0 5px 18px #00000012}
+.card h3{font-size:22px}
+.button{display:inline-block;background:#2563eb;color:white;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+footer{background:#172554;color:white;text-align:center;padding:25px;margin-top:30px}
+</style>
 </head>
 
 <body>
 
 <header>
-
-    <a href="index.html">← Back to Revision Hub</a>
-
+<a href="index.html">← Back to Revision Hub</a>
 </header>
 
-
 <section class="hero">
-
-    <h1>🧬 A-Level Biology</h1>
-
-    <p>
-        Choose a topic to start revising.
-    </p>
-
+<h1>🧬 A-Level Biology</h1>
+<p>Select your exam board to begin revising.</p>
 </section>
 
+<div class="container">
+<h2>Choose your exam board</h2>
+<p class="description">Select the exam board you study.</p>
 
-<section class="topics">
+<div class="grid">
 
-    <h2>Biology Topics</h2>
+<div class="card">
+<h3>AQA</h3>
+<a href="#" class="button">Select AQA</a>
+</div>
 
-    <div class="topic-grid">
+<div class="card">
+<h3>OCR</h3>
+<a href="#" class="button">Select OCR</a>
+</div>
 
-        <div class="topic">
-            <h3>🔬 Biological Molecules</h3>
-            <p>Carbohydrates, lipids, proteins and nucleic acids.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
+<div class="card">
+<h3>Edexcel</h3>
+<a href="#" class="button">Select Edexcel</a>
+</div>
 
-        <div class="topic">
-            <h3>🧫 Cells</h3>
-            <p>Cell structure, membranes and transport.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
+<div class="card">
+<h3>Eduqas</h3>
+<a href="#" class="button">Select Eduqas</a>
+</div>
 
-        <div class="topic">
-            <h3>🧬 DNA & Genetics</h3>
-            <p>DNA, genes, inheritance and protein synthesis.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
+</div>
+</div>
 
-        <div class="topic">
-            <h3>🫀 Exchange & Transport</h3>
-            <p>Exchange surfaces and transport systems.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
-
-        <div class="topic">
-            <h3>🌱 Photosynthesis</h3>
-            <p>How plants capture and use energy.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
-
-        <div class="topic">
-            <h3>🫁 Respiration</h3>
-            <p>Aerobic and anaerobic respiration.</p>
-            <a href="#" class="button">Revise</a>
-        </div>
-
-    </div>
-
-</section>
-
-
-<footer>
-
-    <p>📚 A-Level Revision Hub</p>
-
-</footer>
+<footer>📚 A-Level Revision Hub</footer>
 
 </body>
 </html>
